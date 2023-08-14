@@ -1,0 +1,76 @@
+/*Aqui esta o fundo da pagina*/
+body {
+    margin: 0px;
+    box-sizing: border-box;
+    /*Aqui é onde esta o gradiente do preto ao roxo*/
+    background-image: linear-gradient(to bottom right,black,
+    #0b0522,#201447,#3e219b,#794FE7);
+    background-attachment: fixed;
+}
+
+/*Onde esta a imagem/logo*/
+#head img {
+    width: 120px;
+    float: left;
+    /*Diminui a imagem e enquadrei ela na esquerda,
+    talvez tenha jeitos melhores de posicionamento,
+    mas no momento só pensei nisso...*/
+    margin-left: 100px;
+    padding: 0px;
+}
+
+/*Aqui é onde esta a barra superior,mas
+como visto no preview,eu pretendo colocar/adicionar
+ondas e deixa-las animadas*/
+#head {
+    background-image:linear-gradient( to right,rgb(174, 0, 255),black);
+    z-index: 0px;
+    height: 100px;
+    margin: 0px;
+    position: fixed;
+    width: 100%;
+    /*isso aqui eu descobri acidentalmente hahaha,
+    mas tinha uma noção,visto que com bordas da pra se mexer
+    em propiedades de cada lado*/
+    border-bottom-left-radius: 30px ;
+    border-bottom-right-radius: 30px;
+
+}
+/*Retirando o estilo de lista*/
+/*Aplicando o float pra o menu ficar pra direita */
+li { 
+    list-style: none;
+    float: right;
+    margin-top: 50px;
+}
+
+
+/*Isso aqui é todo o design do botão*/
+.menu_2 {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 11px;
+    border-radius: 18px;
+    /*Acho essa fonte bonita,porem creio que vou ter que fazer
+    uma substituição*/
+    font-family: Archivo Black;
+    font-weight: bold;
+    text-align: center;
+    /*O codigo esta gigante aparentemente,mas creio que se
+    tiver como eu reduzir ele,pretendo :) */
+    margin: 10px;
+    margin-bottom: 100px;
+}
+
+/*Texto do meio*/
+.joao {
+color: white;
+margin: 500px;
+margin-top: 400px;
+margin-left: 250px;
+font-weight: bold;
+float: left;
+font-family: Archivo Black;
+font-size: 100px;
+}
